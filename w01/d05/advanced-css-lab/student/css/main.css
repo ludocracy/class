@@ -1,0 +1,119 @@
+/* $green: #00a84f;
+$orange: #f37735;
+$gray: #e8e8e7;
+*/
+
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h6, title, button {
+  text-transform: uppercase;
+}
+
+h1 {
+  color: white;
+  background-color: #00a84f;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+section {
+}
+
+button {
+  color: white;
+  background-color: #f37735;
+  border: none;
+  font-weight: 200;
+  padding: 10px 35px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/austin.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.hero h2 {
+  font-family: 'Open Sans';
+  color: white;
+  transform: scale(1, 1.5);
+}
+
+h2 {
+  color: #00a84f;
+}
+
+article {
+  display: flex;
+  text-align: left;
+}
+
+article h4 {
+  font-family: 'Open Sans';
+}
+
+
+.meet-the-team-section {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.broker-article {
+}
+
+.broker-image {
+  width: 150px;
+  height: 200px;
+  flex: 1;
+  padding: 25px;
+}
+
+.article-body  {
+  flex: 5;
+}
+
+.austin-tidbits-section {
+  background-color: #E8E8E7;
+}
+
+.tidbit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 960px) {
+  .tidbit-container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+}
+
+.tidbit-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tidbit-article .article-body {
+  width: 80%;
+}
+
+.tidbit-article img {
+  width: 300px;
+  height: 300px;
+}
